@@ -1,0 +1,50 @@
+div {
+  display: block;
+  padding: 1rem;
+}
+
+#a:hover + #b {
+  background-color: aqua;
+}
+
+
+input:focus + #b{
+    background-color: aquamarine;
+}
+
+.parent {
+	width: 200px;
+	height: 200px;
+	background: gray;
+}
+.parent, 
+.selector {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.selector {
+	cursor: pointer;
+	background: silver;
+	width: 50%;
+	height: 50%;
+}
+
+/* pertinent */
+.parent {
+	background: gray;
+	pointer-events: none;
+}
+.parent:hover {
+	background: fuchsia;
+}
+.parent 
+.selector {
+	pointer-events: auto;
+}
+
+section:hover{
+
+}
+
+section + 
