@@ -130,6 +130,7 @@ button {
 }
 
 .tweet__msg {
+  padding-right: 2rem;
 }
 
 .tweet__msg .tweet__msg-name {
@@ -146,6 +147,12 @@ button {
 .tweet__msg .tweet__msg-body .tag {
   color: #1395e0;
   font-weight: 300;
+}
+
+.tweet__msg .tweet__msg-body img {
+  width: 100%;
+  margin-top: 1rem;
+  border-radius: 20px;
 }
 
 .tweet__msg .tweet__msg-action {
