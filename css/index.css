@@ -240,68 +240,76 @@ input:focus {
 }
 
 .right {
-  padding: 0.4rem 0.6rem;
+  display: none;
 }
 
-.right .search {
-  display: block;
-  padding: 0.4rem 1rem;
-  position: relative;
-}
+@media (min-width: 969px) {
+  .right {
+    display: block;
+    padding: 0.4rem 0.6rem;
+  }
 
-.right .search svg {
-  position: absolute;
-  left: 32px;
-  top: 18px;
-  width: 24px;
-  fill: rgba(255, 255, 255, 0.3);
-}
+  .right .search {
+    display: block;
+    padding: 0.4rem 1rem;
+    position: relative;
+  }
 
-.right .search input {
-  border: none;
-  border-radius: 24px;
-  padding: 0.75rem 3rem;
-  width: 280px;
-  height: 48px;
-  background: rgba(0, 0, 0, 0.1);
-  font-size: 16px;
-  cursor: pointer;
-}
+  .right .search svg {
+    position: absolute;
+    left: 32px;
+    top: 18px;
+    width: 24px;
+    fill: rgba(255, 255, 255, 0.3);
+  }
 
-.trand {
-  border-radius: 12px;
-  padding: 0.6rem;
-  margin: 1rem;
-  background-color: rgba(0, 0, 0, 0.1);
-}
+  .right .search input {
+    border: none;
+    border-radius: 24px;
+    padding: 0.75rem 3rem;
+    width: 280px;
+    height: 48px;
+    background: rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    cursor: pointer;
+  }
 
-.trand .trand-title {
-  font-size: 24px;
-  font-weight: 700;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  padding: 0.6rem 0;
-}
+  .trand {
+    display: block;
+    border-radius: 12px;
+    padding: 0.6rem;
+    margin: 1rem;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
 
-.trand ul {
-  padding: 0;
-  margin: 0;
-}
+  .trand .trand-title {
+    font-size: 24px;
+    font-weight: 700;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 0.6rem 0;
+  }
 
-.trand ul li {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  display: block;
-  text-align: left;
-  height: auto;
-  padding: 0.8rem 0.75rem;
-}
+  .trand ul {
+    padding: 0;
+    margin: 0;
+  }
 
-.trand ul li:last-child {
-  border-bottom: none;
-}
+  .trand ul li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    display: block;
+    text-align: left;
+    height: auto;
+    padding: 0.8rem 0.75rem;
+  }
 
-.trand ul li span {
-  color: white;
-  font-weight: 400;
+  .trand ul li:last-child {
+    border-bottom: none;
+  }
+
+  .trand ul li span {
+    color: white;
+    font-weight: 400;
+  }
 }
 
 @media (max-width: 1248px) {
