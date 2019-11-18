@@ -244,7 +244,7 @@ input:focus {
   display: none;
 }
 
-@media (min-width: 969px) {
+@media (min-width: 720px) {
   .right {
     display: block;
     padding: 0.4rem 0.6rem;
@@ -371,7 +371,7 @@ input:focus {
   }
 }
 
-@media (max-width: 1248px) {
+@media (max-width: 1024px) {
   ul {
     padding: 0.5rem;
   }
