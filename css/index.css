@@ -296,19 +296,52 @@ input:focus {
 
   .trand ul li {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    display: block;
+    display: flex;
     text-align: left;
+    justify-content: space-between;
     height: auto;
     padding: 0.8rem 0.75rem;
+    color: white;
   }
 
   .trand ul li:last-child {
     border-bottom: none;
+    color: #1395e0;
   }
 
   .trand ul li span {
-    color: white;
+    color: inherit;
     font-weight: 400;
+  }
+
+  .trand ul li img {
+    width: 48px;
+    border-radius: 50%;
+  }
+
+  .trand ul li .name {
+    padding: 0;
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+    text-align: left;
+  }
+
+  .name .name-twitter {
+    display: block;
+  }
+
+  .name p {
+    color: grey;
+  }
+
+  .trand ul li .follow-btn {
+    padding: 0.4rem;
+    display: inline-block;
+    margin: 0;
+    border: 1px solid #1395e0;
+    width: 100px;
+    color: #1395e0;
   }
 }
 
