@@ -290,6 +290,14 @@ input:focus {
     padding: 0.6rem 0;
   }
 
+  .navigation ul li {
+    font-size: 12px;
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.5);
+    height: auto;
+    padding: 0.5rem;
+  }
+
   .trand ul {
     padding: 0;
     margin: 0;
@@ -355,14 +363,6 @@ input:focus {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-  }
-
-  .navigation ul li {
-    font-size: 12px;
-    display: inline-block;
-    color: rgba(255, 255, 255, 0.5);
-    height: auto;
-    padding: 0.5rem;
   }
 
   .tweet__post {
