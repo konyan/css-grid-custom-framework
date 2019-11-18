@@ -1,0 +1,24 @@
+{
+  "name": "css-grid",
+  "version": "1.0.0",
+  "description": "## Project Title : [Twitter Clone](https://twitter.com/home)",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stylelint": "stylelint 'css/*.css'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konyan/css-grid-custom-framework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/konyan/css-grid-custom-framework/issues"
+  },
+  "homepage": "https://github.com/konyan/css-grid-custom-framework#readme",
+  "devDependencies": {
+    "stylelint": "^12.0.0",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
