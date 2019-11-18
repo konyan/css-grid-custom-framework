@@ -343,6 +343,26 @@ input:focus {
     width: 100px;
     color: #1395e0;
   }
+
+  .navigation {
+    position: relative;
+  }
+
+  .navigation ul {
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .navigation ul li {
+    font-size: 12px;
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.5);
+    height: auto;
+    padding: 0.5rem;
+  }
 }
 
 @media (max-width: 1248px) {
