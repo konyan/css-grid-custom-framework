@@ -373,7 +373,7 @@ input:focus {
 
 @media (max-width: 1248px) {
   ul {
-    padding: 0.75rem;
+    padding: 0.5rem;
   }
 
   ul li {
