@@ -112,6 +112,7 @@ button {
 
 .tweet__post {
   margin-top: 1rem;
+  display: none;
 }
 
 .tweet__post-body {
@@ -363,15 +364,15 @@ input:focus {
     height: auto;
     padding: 0.5rem;
   }
+
+  .tweet__post {
+    display: flex;
+  }
 }
 
 @media (max-width: 1248px) {
   ul {
     padding: 0.75rem;
-  }
-
-  .tweet__post {
-    display: none;
   }
 
   ul li {
