@@ -109,6 +109,32 @@ button {
   fill: aqua;
 }
 
+.tweet__post {
+  margin-top: 1rem;
+}
+
+.tweet__post-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.tweet__post-body #textarea {
+  border: none;
+  padding: 0.75rem;
+  margin-right: 1rem;
+  font-size: 22px;
+  background-color: #141f2b;
+  color: white;
+}
+
+#textarea::placeholder {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+#textarea:focus {
+  outline: 0;
+}
+
 .tweet__wrapper {
   padding: 0;
 }
