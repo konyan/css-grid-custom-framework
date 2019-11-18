@@ -211,6 +211,7 @@ a {
 @media (min-width: 1024px) {
   .container {
     padding: 0 2rem;
+    width: 80%;
   }
 
   .col-lg-1 {
